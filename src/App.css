@@ -1,0 +1,292 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: #141414;
+}
+
+.app {
+  display: flex;
+  color: white;
+}
+
+.sidebar {
+  width: 250px;
+  background: #111;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.menu {
+  margin-bottom: 40px;
+}
+
+.menu-item {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+}
+
+.menu-item.active {
+  font-weight: bold;
+}
+
+.playlist {
+  h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .playlist-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+    img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    p {
+      font-size: 14px;
+      margin: 0;
+    }
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.top-module, .left-module, .main-module, .bottom-module {
+  padding: 10px;
+}
+
+.top-module {
+  background-color: #1F1F1F;
+  border-radius: 15px;
+  color: #bfbfbf;
+  height: 3vh;
+  margin-bottom: .5rem;
+  margin-right: .5rem;
+  margin-top: .5rem;
+  margin-left: .5rem;
+}
+
+.container {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.left-module {
+  background-color: #181818;
+  border-radius: 15px;
+  color: #bfbfbf;
+  flex: 2;
+  height: 76vh;
+  margin-right: .5rem;
+  margin-left: -.1rem;
+}
+
+.main-module {
+  background-color: #1F1F1F;
+  border-radius: 15px;
+  color: #bfbfbf;
+  flex: 8;
+  height: 76vh;
+  margin-right: -.1rem;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.Previous, .Next, .PlayPause {
+  background-color: #202020; 
+  padding: 5px; 
+  border-radius: 50%;
+  font-size: 16px;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+  top: -10px;
+  height: 20px;
+  text-align: center;
+  width: 20px;
+}
+
+.PreviousIcon, .NextIcon, .PlayPauseIcon {
+position: relative;
+top: -10px;
+right: 8px;
+width: 40px;
+height: 40px;
+}
+
+.PreviousIcon {
+  position: relative;
+  right: 10px;
+}
+
+.NextIcon {
+  position: relative; 
+  right: 8px;
+}
+
+.bottom-module {
+  background-color: #141414;
+  border-radius: 15px;
+  color: #bfbfbf;
+  height: 4vh;
+  margin-top: 10px;
+}
+
+.Nav_HT {
+  display: flex;
+  align-items: center;
+}
+
+.Nav_HTChild1 {
+  font-size: 24px;
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+  transition: color 0.3s; /* Add a smooth color transition effect */
+}
+
+.Nav_HTChild2 {
+  font-size: 24px;
+  transition: color 0.3s; /* Add a smooth color transition effect */
+}
+
+.Nav_HT:hover .Nav_HTChild2 {
+  color: #ffffff; /* Change the color on hover */
+}
+
+.Nav_HT:hover .Nav_HTChild1 {
+  color: #ffffff;
+}
+.top-module {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Name {
+  color: #bfbfbf;
+  margin-left: 10px;
+}
+
+.input-field {
+  border: none;
+  background-color: transparent;
+  color: #bfbfbf;
+  outline: none;
+}
+
+.top-module {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Name {
+  position: relative;
+  right: 2em;
+}
+
+.UserIcon {
+  position: absolute;
+  right: 1em;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+  background: #141414;
+
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+
+  p {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #b3b3b3;
+  }
+
+  .featured {
+    h2 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .featured-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+
+      img {
+        width: 100px;
+        height: 100px;
+        border-radius: 4px;
+        margin-right: 20px;
+      }
+
+      p {
+        font-size: 16px;
+        margin: 0;
+      }
+    }
+  }
+
+  /* Styling for the bottom section */
+  .bottom {
+    margin-top: 20px;
+
+    h2 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .new-releases {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+
+      .new-release-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+
+        img {
+          width: 200px;
+          height: 200px;
+          border-radius: 4px;
+          margin-bottom: 10px;
+        }
+
+        p {
+          font-size: 16px;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
